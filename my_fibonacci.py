@@ -6,7 +6,7 @@ def fibonacci(n):
     elif n == 2:
         return [0, 1]
     else:
-        fib = fibonacci(n-1)
-        next_number = fib[-1] + fib[-2]
-        fib.append(next_number)
+        fib = [0, 1]
+        for i in range(2, n):
+            fib.append(fib[i-1] + fib[i-2])
         return fib
