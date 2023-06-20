@@ -1,3 +1,6 @@
+# Copyright (c) 2023 Lorenzo Bacchiani
+# All rights reserved.
+
 def prime_numbers(n):
     def is_prime(num, divisor=2):
         if num <= 1:

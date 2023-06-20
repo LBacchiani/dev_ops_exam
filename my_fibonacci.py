@@ -1,3 +1,6 @@
+# Copyright (c) 2023 Lorenzo Bacchiani
+# All rights reserved.
+
 def fibonacci(n):
     if n <= 0:
         return []

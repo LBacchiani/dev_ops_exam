@@ -1,3 +1,6 @@
+# Copyright (c) 2023 Lorenzo Bacchiani
+# All rights reserved.
+
 import unittest
 from my_fibonacci import fibonacci
 

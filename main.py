@@ -1,3 +1,6 @@
+# Copyright (c) 2023 Lorenzo Bacchiani
+# All rights reserved.
+
 from my_fibonacci import fibonacci
 from prime_numbers import prime_numbers
 
