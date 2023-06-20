@@ -1,0 +1,23 @@
+name: Prime Number Test
+
+on:
+  push:
+    branches:
+      - prime_number
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Run Fibonacci Test
+        run: python -m unittest tests/prime_numbers_test.py
+
