@@ -1,4 +1,4 @@
-name: Fibonacci Test
+name: Prime Number Test
 
 on:
   push:
@@ -19,5 +19,5 @@ jobs:
           python-version: '3.9'
 
       - name: Run Fibonacci Test
-        run: python -m unittest tests/prime_numbers.py
+        run: python -m unittest tests/prime_numbers_test.py
 
