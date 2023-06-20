@@ -8,7 +8,7 @@ The Docker image is availabe in Docker Hub. To install it please run the followi
 
 ```
 sudo docker pull lorenzobacchinai/dev_ops_exam
-sudo  docker run --entrypoint="/bin/bash" -i --rm -t lorenzobacchiani/dev_ops_exam
+sudo docker run --entrypoint="/bin/bash" -i --rm -t lorenzobacchiani/dev_ops_exam
 ```
 
 ## Execution Instruction
